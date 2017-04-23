@@ -28,7 +28,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="inc-Eh-LCQ">
-                                <rect key="frame" x="0.0" y="292" width="375" height="21"/>
+                                <rect key="frame" x="0.0" y="79" width="375" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -36,12 +36,12 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="inc-Eh-LCQ" secondAttribute="trailing" id="8Oy-PJ-sez"/>
                             <constraint firstItem="h4s-Zm-OzM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="GKt-k3-fcK"/>
+                            <constraint firstItem="inc-Eh-LCQ" firstAttribute="top" secondItem="h4s-Zm-OzM" secondAttribute="bottom" constant="8" id="Jlg-Zn-rsc"/>
+                            <constraint firstAttribute="trailing" secondItem="inc-Eh-LCQ" secondAttribute="trailing" id="QiE-Kx-5GR"/>
                             <constraint firstItem="inc-Eh-LCQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="VqB-Hi-qeV"/>
                             <constraint firstAttribute="trailing" secondItem="h4s-Zm-OzM" secondAttribute="trailing" id="iH5-NZ-F5D"/>
                             <constraint firstItem="h4s-Zm-OzM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="vEV-I1-N5n"/>
-                            <constraint firstItem="inc-Eh-LCQ" firstAttribute="top" secondItem="h4s-Zm-OzM" secondAttribute="bottom" constant="221" id="vHm-YW-mvc"/>
                         </constraints>
                     </view>
                     <connections>
