@@ -3,9 +3,9 @@
 
 ![image](https://github.com/l19901001/SSRichTextMake/blob/master/images/屏幕快照%202017-04-23%20下午9.06.56.png)
 
-    !_textLable.numberOfLines = 0;
+    `_textLable.numberOfLines = 0;
     _textLable.lineBreakMode = NSLineBreakByCharWrapping;
-        NSString *text = @"每个iOS应用都有自己的应用沙盒(应用沙盒就是文件系统目录)，与其他文件系统隔离。应用必须待在自己的沙盒里，其他应用不能访问该           
+    NSString *text = @"每个iOS应用都有自己的应用沙盒(应用沙盒就是文件系统目录)，与其他文件系统隔离。应用必须待在自己的沙盒里，其他应用不能访问该           
                            沙盒应用沙盒的文件系统目录，如下图所示（假设应用的名称叫Layer)";
     NSAttributedString *attri = [text ss_makeAttristring:^(SSRichTextMake *make) {
         [make.ss_color([UIColor redColor]).ss_range([text rangeOfString:@"应用沙盒就是文件系统目录"]) end];
@@ -20,4 +20,4 @@
         make.ss_color([UIColor grayColor]).ss_font(40).ss_strikethrough(NSUnderlineStyleSingle).ss_range([text rangeOfString:@"应用沙盒就是文件系统目录"]).ss_strikethroughColor([UIColor redColor]).ss_end();
     }];
     
-    _text2Lable.attributedText = attri2;!
+    _text2Lable.attributedText = attri2;`
